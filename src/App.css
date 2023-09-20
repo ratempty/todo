@@ -1,0 +1,21 @@
+@keyframes move{
+  0%{ bottom:-100%; }
+  100%{ bottom:0;}
+}
+
+.react-datepicker-wrapper{
+  width:80px; height: 32px; margin-top:20px; padding:8px 10px; 
+}
+.react-datepicker__input-container {
+  width:80px; height:32px;
+}
+.react-datepicker__input-container input{
+  width:80px; height:32px; padding: 6px 8px; border-radius:10px; text-indent:30px; cursor: pointer;
+}
+.dateIcon{ position : absolute; left : 43px ; bottom:28px;}
+
+li .react-datepicker-wrapper{ margin-top:0; height: 40px;}
+li .react-datepicker__input-container { height: 40px;}
+li .react-datepicker__input-container input{
+  width:40px; height:28px; text-indent:0; text-align: center; transform:translate(15px,-2px);
+}
